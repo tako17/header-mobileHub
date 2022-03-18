@@ -1,6 +1,8 @@
 body {
   background-color: rgba(41, 45, 49, 1);
 }
+
+/* header */
 header {
   max-width: 1440px;
   width: 75%;
@@ -44,4 +46,127 @@ header {
 
 .header-ul li a img {
   margin-right: 9.62px;
+}
+
+/* footer */
+
+footer {
+  color: #e2b62d;
+  display: flex;
+  max-width: 1440px;
+  width: 75%;
+  background-color: rgba(46, 51, 56, 1);
+  margin-left: 3.65%;
+  margin-top: 27px;
+  border-radius: 15px;
+
+  justify-content: center;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+
+  font-size: 13px;
+  /* padding-top: 75.2px; */
+  align-items: center;
+  height: 328px;
+}
+
+.footer-item {
+  max-width: 343px;
+  width: 30%;
+  height: 175px;
+  margin-left: 5.4%;
+  /* display:flex;
+  flex-direction: column;
+  justify-content: center; */
+  /* background-color: antiquewhite; */
+}
+
+.footer-item:first-child {
+  text-align: center;
+  margin-left: 0px;
+}
+
+.footer-item:first-child p {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 23px;
+}
+.footer-item:first-child img {
+  width: 336px;
+}
+
+.division-line::before {
+  content: "";
+  display: block;
+  max-width: 343px;
+  width: 100%;
+  height: 1px;
+  background-color: #e2b62d;
+  margin: 32px 0px;
+}
+
+.footer-header {
+  display: flex;
+  align-items: center;
+}
+.footer-header h3 {
+  margin-left: 11.47px;
+  padding-top: 7px;
+}
+.footer-item p {
+  line-height: 23px;
+}
+.footer-item a {
+  color: #e2b62d;
+
+}
+
+a.whatsapp{
+  color: #3CAC5E;
+
+  /* font-size: 13px; */
+}
+a.whatsapp i{
+    font-size: 31px;
+   transform: translatey(5px);
+  
+}
+
+[href="tel:+995571992463"]{
+display: inline-block;
+    width: 182px;
+    text-align: center;
+    padding:11px 0px ;
+    padding-top: 12px;
+    border: 1px solid #6C633E;
+    border-radius: 4px;
+    margin-right: 27.99px;
+}
+
+.footer-mail,.footer-location{
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border: 1px solid #6C633E;
+    width: 300px;
+    height: 55px;
+    border-radius: 13px;
+    margin-top: 23.52px;
+
+
+}
+.footer-mail img,.footer-location img{
+    transform: translatey(5px);
+    margin: 0px 35px 0px 47px;
+  
+}
+.footer-location a{
+
+    transform: translatey(-5px);
+}
+
+div.footer-item:last-child .division-line::before,div.footer-item:nth-child(2) .division-line::before{
+   margin: 16px 0px;
+   
+    background-color:  #6C633E;;
 }
