@@ -148,21 +148,30 @@ display: inline-block;
     /* justify-content: center; */
     align-items: center;
     border: 1px solid #6C633E;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 55px;
     border-radius: 13px;
     margin-top: 23.52px;
 
 
+}  
+
+.footer-mail a,.footer-location a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transform: translatey(20%);
 }
 .footer-mail img,.footer-location img{
     transform: translatey(5px);
-    margin: 0px 35px 0px 47px;
+    padding: 0px 35px 0px 47px;
   
 }
 .footer-location a{
 
-    transform: translatey(-5px);
+    transform: translatey(17%);
+    
 }
 
 div.footer-item:last-child .division-line::before,div.footer-item:nth-child(2) .division-line::before{
